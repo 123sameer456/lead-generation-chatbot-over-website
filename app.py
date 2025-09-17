@@ -2,6 +2,14 @@
 from flask import Flask, render_template, request, jsonify
 import os
 import openai
+from dotenv import load_dotenv
+import os
+from gcc import save_lead_to_gsheet
+
+# save_lead_to_gsheet("John Doe", "john@example.com", "+123456789", "Interested in demo")
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 
