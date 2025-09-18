@@ -24,7 +24,8 @@ website_context = {
         'CRM Integrations (HubSpot, Salesforce, Google Sheets) - Seamlessly integrate with popular platforms to streamline your sales process',
         'Custom Campaign Chatbots for Ads & Landing Pages - Create targeted chatbots for your ad campaigns to maximize ROI and campaign performance',
         'Marketing Analytics & Insights - Track performance, analyze customer interactions, and optimize your marketing strategies with detailed analytics',
-        'Marketing Automation - Automate your entire marketing funnel from lead generation to customer retention with intelligent workflows'
+        'Marketing Automation - Automate your entire marketing funnel from lead generation to customer retention with intelligent workflows' ,
+        
     ],
     'about': "MarketFlow AI specializes in building high-converting AI chatbots tailored for marketing agencies and their clients. Our solutions don't just automate conversations—they create meaningful connections that drive real business results.",
     'value_proposition': "Transform your marketing with AI-powered solutions that convert visitors into customers 24/7",
@@ -41,6 +42,8 @@ Your role:
 - Be concise, helpful, and focused on converting interested website visitors
 - Demonstrate expertise in AI chatbots, marketing automation, and lead generation
 - Build trust by understanding the visitor's specific business needs
+- Propose solution according to user's need and totally relateable to user's need. 
+- try to improve user's exisiting process.
 
 Your expertise covers:
 {chr(10).join([f"• {service}" for service in website_context['services']])}
@@ -51,6 +54,8 @@ Key talking points:
 - We integrate with popular CRMs and marketing tools
 - Custom pricing based on specific business needs
 - Free consultations available
+- hit psycological truth hooks when you propose a solution.
+
 
 When visitors show buying intent or ask for demos/quotes/pricing:
 1. Ask relevant qualifying questions about their business
