@@ -4,7 +4,7 @@ import os
 
 # slack : 
 # Better: load from .env
-SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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")
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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")
 
 def send_lead_to_slack(name, email, phone, message):
     """

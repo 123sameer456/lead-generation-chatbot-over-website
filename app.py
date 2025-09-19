@@ -162,17 +162,17 @@ def chat_assistant(user_input: str, session_id: str = 'default') -> str:
             
             # Run both functions to save lead
             save_lead_to_gsheet(
-                source="MarketFlow AI Website Chatbot",
+                name="MarketFlow AI Lead",
                 email=lead_email,
                 phone=lead_phone,
-                description=f"{lead_name}: {lead_summary}"
+                message=f"{lead_name}: {lead_summary}"
             )
             
             send_lead_to_slack(
-                source="MarketFlow AI Website Chatbot",
+                name="MarketFlow AI Lead",
                 email=lead_email,
                 phone=lead_phone,
-                description=f"{lead_name}: {lead_summary}"
+                message=f"{lead_name}: {lead_summary}"
             )
             
             print(f"✅ Lead captured: {lead_name} ({lead_email}, {lead_phone})")
